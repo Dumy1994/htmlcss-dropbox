@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
     font-family: 'Heebo', sans-serif;
 }
-
+body{
+    min-width: 1200px;
+}
 .clearfix::after{
 	content: '';
 	display: table;
@@ -14,7 +15,22 @@
 a{
     text-decoration: none;
  }
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.mtop2vh{
+    margin-top: 2vh;
+}
+.font40{
+    font-size: 40px;
+}
+.btn{
+    color: white;
 
+}
 /* header  */
 
 nav{
@@ -27,6 +43,7 @@ nav{
     background-color: white;
     
 }
+
 
 .logo{
     float: left;
@@ -67,32 +84,37 @@ nav{
 header{
     background-color: aliceblue;
     height: 100vh;
-    width: 100vw;
+    
     border: 1px solid red;
     position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-/* }
- 
- 
- .logo{
-     width: 15%;
-     float: left;
-     line-height: 10vh;
+.contenitore{
+    font-size: 80px;
+    border: 2px solid red;
+    margin: 20vh 5%;
 }
 
-li {
-    display: inline-block;
-    line-height: 10vh;
-    float: left;
-    margin-left: 30px;
-} */
+    
+}
+.jumbo{
+    float: right;
+    margin-bottom: -10px;
+    
+}
+
+.prova{
+    margin-top: 4vh;
+    width: 20vw;
+    background-color: aqua;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
