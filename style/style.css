@@ -44,7 +44,9 @@ a{
 .margintop6{
     margin-top: 6%;
 }
-
+.margintop3{
+    margin-top: 3%;
+}
 /* header  */
 
 nav{
@@ -91,10 +93,8 @@ nav{
     margin-top: 5vh;
     transform: translate(-50%, -50%);
     float: right;
-    line-height: 4vh;
     margin-right: 2vw;
-    height: 70px;
-    width: 110px;
+    padding: 15px;
     text-align: center;
     background-color: rgb(159, 241, 248);
     list-style: none;
@@ -133,16 +133,17 @@ header{
 .inizia2{
     background-color: aqua;
     text-align: center;
-    font-size: 40px;
     padding: 10px;
+  
 }
 
 .div-main{
     width: 80%;
     padding-top: 10%;
     border: 2px solid red;
-    height: 100vh;
+    
     margin: 0 auto;
+  
 }
 /* section 1  */
 .cerchio-blu{
@@ -179,9 +180,12 @@ span{
     float: left;
     border: 1px solid black;
     margin-top: 20px;
+    
 }
+
 .contenitore2space{
     margin-left: 10px;
+    
 }
 
 .type{
@@ -195,9 +199,8 @@ span{
     text-align: center;
     width: 90%;
     margin: 8% auto;
-    border: 1px solid red;
     background-color: rgb(159, 241, 248);
-
+    padding: 10px;
 }
 
 .shorthr{
@@ -206,9 +209,36 @@ span{
     border: 1px solid black;
 }
 
+/* contatta ufficio  */
 
+.ufficio{
+    border: 1px solid black;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    
+}
 
+.contatta{
+    width: 100%;
+    border-top: 1px solid black;
+    text-align: left;
+    padding: 15px;
+   position: relative;
+   padding-top: 25px;
+   margin-bottom: 3%;
+}
 
+.contatta2{
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    background-color: rgb(159, 241, 248);
+}
 
 
 
