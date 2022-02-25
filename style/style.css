@@ -21,20 +21,30 @@ a{
 .floatright{
     float: right;
 }
-.mtop2vh{
-    margin-top: 2vh;
-}
-.font40{
-    font-size: 40px;
-}
+
+
 .btn{
     color: white;
+    text-align: center;
+    background-color: rgb(159, 241, 248);
 
 }
-h2{
-    font-size: 80px;
-    
+
+.textcenter{
+    text-align: center;
 }
+.margintop5{
+    margin-top: 5%;
+}
+
+.margintop8{
+    margin-top: 10%;
+}
+
+.margintop6{
+    margin-top: 6%;
+}
+
 /* header  */
 
 nav{
@@ -55,12 +65,17 @@ nav{
     width: 10%;
     margin-top: 50px;
 }
+.fontmargin35{
+  
+    margin-top: 2%;
+
+}
 
 .lileft{
     display: inline-block;
     line-height: 10vh;
     margin-left: 2vw;
-    font-size: 30px;
+    
 
 }
 
@@ -69,7 +84,7 @@ nav{
     float: right;
     line-height: 10vh;
     margin-right: 3vw;
-    font-size: 30px;
+    
 }
  
 .inizia{
@@ -82,49 +97,58 @@ nav{
     width: 110px;
     text-align: center;
     background-color: rgb(159, 241, 248);
-    font-size: 30px;
     list-style: none;
     
 }
 
 header{
     background-color: aliceblue;
-    height: 100vh;
     border: 1px solid red;
-    position: relative;
+    width: 100%;
+    
 }
 
 .contenitore{
-    font-size: 80px;
+    width: 90%;
+    
     border: 2px solid red;
-    margin: 20vh 5%;
+    margin: 0 auto;
+    padding-top: 10%;
 }
 
-    
-.jumbo{
-    margin-bottom: -5px;
+.divjumbo{
     width: 60vw;
-    
+    height: 100%;
+    float: right;
+
+}    
+.jumbo{
+    max-width: 100%;
+    max-height: 100%;
+   object-fit: cover;
+   margin-bottom: -10%;
 }
 
-.prova{
-    margin-top: 4vh;
-    width: 20vw;
+
+.inizia2{
     background-color: aqua;
     text-align: center;
+    font-size: 40px;
+    padding: 10px;
 }
 
 .div-main{
     width: 80%;
-    margin: 15vh auto;
+    padding-top: 10%;
     border: 2px solid red;
     height: 100vh;
+    margin: 0 auto;
 }
 /* section 1  */
 .cerchio-blu{
     border: 8px solid aqua;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     float: left;
     margin-top: 5vh;
@@ -134,51 +158,53 @@ span{
     margin-top: 0;
     font-size: 30px;
     display: inline-block;
-    text-align: center;
     line-height: 30px;  
 }
 .cerchio{
     border: 2px solid black;
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     margin-top: 5vh;
     margin-left: 20px;
 }
-.prezzo{
-    width: calc(80% / 3);
-    height: 70vh;
-    border: 2px solid red;
-    display: inline-block ;
-    font-size: 40px;
-    
-
-}
-
-.prezzo2{
-    width: calc(80% / 3);
-    height: 70vh;
-    border: 2px solid red;
-    display: inline-block ;
-    font-size: 40px;
-    margin-left: 10%;
-
-}
-.king{
+.titlepiano{
     width: 100%;
-    position: absolute;
-    top: 20vh;
-    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    
 }
-section{
-    font-size: 0;
-    position: relative;
+.contenitore2{
+    width: calc((100% / 3) - 7px);
+    float: left;
+    border: 1px solid black;
+    margin-top: 20px;
 }
-.margin10{
-    margin-left: 10%;
+.contenitore2space{
+    margin-left: 10px;
+}
+
+.type{
+    border-top: 1px solid black;
+    padding: 15px;
+}
+
+/* prova 30 giorni */
+.prova{
+    
+    text-align: center;
+    width: 90%;
+    margin: 8% auto;
+    border: 1px solid red;
+    background-color: rgb(159, 241, 248);
 
 }
-    
+
+.shorthr{
+    width: 15%;
+    margin: 8% 0;
+    border: 1px solid black;
+}
 
 
 
