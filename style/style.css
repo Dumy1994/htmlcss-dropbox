@@ -27,9 +27,12 @@ a{
     color: white;
     text-align: center;
     background-color: rgb(159, 241, 248);
+}
+.hovertext:hover{
+    width: 100%;
+    
 
 }
-
 .textcenter{
     text-align: center;
 }
@@ -164,6 +167,11 @@ header{
   
 }
 
+#collegamento{
+    color: black;
+    font-size: 150px;
+    font-weight: bold;
+}
 .div-main{
     width: 80%;
     padding-top: 10%;
@@ -455,3 +463,17 @@ footer{
 }
 
 
+/* hover  */
+
+p{
+    width: 90%;
+    display: inline-block;
+}
+
+.hovertext{
+    color: #b19999;
+    display: none;
+}
+.ghost:hover p {
+    display: block;
+}
