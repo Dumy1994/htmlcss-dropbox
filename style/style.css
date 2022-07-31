@@ -467,7 +467,11 @@ footer{
 /* hover  */
 
 p{
+<<<<<<< HEAD
     width: 70%;
+=======
+    width: 90%;
+>>>>>>> 0768bbdf70816e0c3a2ddead2e7458cfc0dfeecc
     display: inline-block;
 }
 
@@ -475,6 +479,10 @@ p{
     color: #b19999;
     display: none;
 }
+<<<<<<< HEAD
 .ghost:hover {
+=======
+.ghost:hover p {
+>>>>>>> 0768bbdf70816e0c3a2ddead2e7458cfc0dfeecc
     display: block;
 }
