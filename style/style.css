@@ -177,7 +177,7 @@ header{
     width: 80%;
     padding-top: 10%;
     
-    margin: 0 auto ;
+    margin: 0 auto;
   
 }
 /* section 1  */
@@ -206,14 +206,12 @@ span{
 }
 .titlepiano{
     width: 100%;
-    
     margin-left: 0;
     margin-bottom: 30px;
     
 }
 .contenitore2{
     width: calc((100% / 3) - 45px);
-    height: 2000px;
     float: left;
     border: 1px solid black;
     margin-top: 20px;
@@ -330,21 +328,30 @@ span{
 /**/
 
 footer{
-    width: 100vw;
-    font-size: 0;
+    width: 100%;
 }
 
 .designit-container1{
-    font-size: 0;
+    height: 500px;
     width: 100%;
 }
+
 .box-designit{
-   width: 30%;
+   width: 20%;
     
+}
+
+.designit-text{
+    
+    width: calc(100% - 40%);
+    display: inline-block;
+    
+    background-color: #F5F5F5;
+    overflow: auto;
 }
 .box-designit div{
     height: 250px;
-    width: 50%;
+    width: 40%;
     display: inline-block;
     
 }
@@ -385,19 +392,14 @@ footer{
 .colore2{
     background-color: #61082B;
 }
-.designit-text{
-    width: calc(100% - 60%) ;
-    display: inline-block;
-    background-color: #F5F5F5;
-}
 
 .designit-text h3{
     width: 60%;
-    padding: 20px;
+
+    
 }
 .designit-text  img{
     width: 10%;
-    padding: 20px;
 }
 .designit-container2 div{
     float: right;
@@ -415,6 +417,9 @@ footer{
     background-color: #c1d8eb;
     padding:  5%  5%;
 }
+
+
+
 .domande{
     width: 70%;
     margin: 5% auto;
@@ -422,6 +427,7 @@ footer{
 .domande hr{
     margin: 30px 0 ;
 }
+
 
 .footer-aiuti{
     width: 100%;
