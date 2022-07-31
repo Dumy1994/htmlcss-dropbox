@@ -78,7 +78,7 @@ h4{
 /* header  */
 
 nav{
-    
+    min-width: 1200px;
     position: fixed;
     left: 0;
     top: 0;
@@ -88,14 +88,15 @@ nav{
     z-index: 10000;
     
 }
+.logo img{
+    width: 100%;
 
+}
 
-.logo{
-    float: left;
-    width: 15%;
-    object-fit: cover;
-    line-height: 8vh;
+.logo, ul li{
+    display: inline-block;
     vertical-align: middle;
+    padding: 0 20px;
 }
 .fontmargin35{
   
@@ -466,7 +467,11 @@ footer{
 /* hover  */
 
 p{
+<<<<<<< HEAD
+    width: 70%;
+=======
     width: 90%;
+>>>>>>> 0768bbdf70816e0c3a2ddead2e7458cfc0dfeecc
     display: inline-block;
 }
 
@@ -474,6 +479,10 @@ p{
     color: #b19999;
     display: none;
 }
+<<<<<<< HEAD
+.ghost:hover {
+=======
 .ghost:hover p {
+>>>>>>> 0768bbdf70816e0c3a2ddead2e7458cfc0dfeecc
     display: block;
 }
